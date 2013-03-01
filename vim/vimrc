@@ -85,7 +85,7 @@ if has("gui_running")
     set laststatus=2
     set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
     function! CurDir()
-        let curdir = substitute(getcwd(), '^/Users/erning', "~", "g")
+        let curdir = substitute(getcwd(), '^/Users/minjiewang', "~", "g")
         return curdir
     endfunction
 endif

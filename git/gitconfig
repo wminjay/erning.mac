@@ -5,9 +5,9 @@
     whitespace = trailing-space,space-before-tab,indent-with-non-tab
 
 [user]
-    name = Zhang Erning
-    email = zhang@erning.com
-    signingkey = 5ABFAE18
+    name = minjie wang
+    email = wminjay@gmail.com
+    #signingkey = 5ABFAE18
 
 [alias]
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
@@ -43,7 +43,7 @@
 
 [core]
     editor = mvim -f
-    excludesfile = /Users/erning/.gitignore_global
+    excludesfile = /Users/minjiewang/.gitignore_global
 
 [diff]
     tool = kaleidoscope
